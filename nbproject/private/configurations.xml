@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="decoder">
+        </df>
+        <df name="Drivers">
+          <df name="BSP">
+            <df name="Components">
+              <df name="l3gd20">
+              </df>
+              <df name="lsm303dlhc">
+              </df>
+            </df>
+            <df name="STM32F3-Discovery">
+            </df>
+          </df>
+          <df name="CMSIS">
+            <df name="Device">
+              <df name="ST">
+                <df name="STM32F3xx">
+                  <df name="Source">
+                    <df name="Templates">
+                      <df name="gcc">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="STM32_USB_Device_Library">
+            <df name="Class">
+              <df name="CDC">
+                <df name="Src">
+                </df>
+              </df>
+            </df>
+            <df name="Core">
+              <df name="Src">
+              </df>
+            </df>
+          </df>
+          <df name="STM32F3xx_HAL_Driver">
+            <df name="Src">
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="decoder">
+        <in>STM32F30x_decoder.c</in>
+        <in>decoder.c</in>
+        <in>decoder.h</in>
+      </df>
+      <df name="deps">
+      </df>
+      <df name="Drivers">
+        <df name="BSP">
+          <df name="Components">
+            <df name="Common">
+              <in>accelero.h</in>
+              <in>audio.h</in>
+              <in>camera.h</in>
+              <in>gyro.h</in>
+              <in>io.h</in>
+              <in>lcd.h</in>
+              <in>ts.h</in>
+              <in>tsensor.h</in>
+            </df>
+            <df name="cs42l52">
+              <in>cs42l52.c</in>
+              <in>cs42l52.h</in>
+            </df>
+            <df name="cs43l22">
+              <in>cs43l22.c</in>
+              <in>cs43l22.h</in>
+            </df>
+            <df name="hx8347d">
+              <in>hx8347d.c</in>
+              <in>hx8347d.h</in>
+            </df>
+            <df name="hx8347g">
+              <in>hx8347g.c</in>
+              <in>hx8347g.h</in>
+            </df>
+            <df name="ili9328">
+              <in>ili9328.c</in>
+              <in>ili9328.h</in>
+            </df>
+            <df name="l3gd20">
+              <in>l3gd20.c</in>
+              <in>l3gd20.h</in>
+            </df>
+            <df name="lsm303dlhc">
+              <in>lsm303dlhc.c</in>
+              <in>lsm303dlhc.h</in>
+            </df>
+            <df name="spfd5408">
+              <in>spfd5408.c</in>
+              <in>spfd5408.h</in>
+            </df>
+            <df name="st7735">
+              <in>st7735.c</in>
+              <in>st7735.h</in>
+            </df>
+            <df name="stlm75">
+              <in>stlm75.c</in>
+              <in>stlm75.h</in>
+            </df>
+            <df name="stts751">
+              <in>stts751.c</in>
+              <in>stts751.h</in>
+            </df>
+          </df>
+          <df name="STM32F3-Discovery">
+            <in>stm32f3_discovery.c</in>
+            <in>stm32f3_discovery.h</in>
+            <in>stm32f3_discovery_accelerometer.c</in>
+            <in>stm32f3_discovery_accelerometer.h</in>
+            <in>stm32f3_discovery_gyroscope.c</in>
+            <in>stm32f3_discovery_gyroscope.h</in>
+          </df>
+        </df>
+        <df name="CMSIS">
+          <df name="Device">
+            <df name="ST">
+              <df name="STM32F3xx">
+                <df name="Include">
+                  <in>stm32f301x8.h</in>
+                  <in>stm32f302x8.h</in>
+                  <in>stm32f302xc.h</in>
+                  <in>stm32f303x8.h</in>
+                  <in>stm32f303xc.h</in>
+                  <in>stm32f318xx.h</in>
+                  <in>stm32f328xx.h</in>
+                  <in>stm32f334x8.h</in>
+                  <in>stm32f358xx.h</in>
+                  <in>stm32f373xc.h</in>
+                  <in>stm32f378xx.h</in>
+                  <in>stm32f3xx.h</in>
+                  <in>system_stm32f3xx.h</in>
+                </df>
+                <df name="Source">
+                  <df name="Templates">
+                    <df name="arm">
+                      <in>startup_stm32f301x8.s</in>
+                      <in>startup_stm32f302x8.s</in>
+                      <in>startup_stm32f302xc.s</in>
+                      <in>startup_stm32f303x8.s</in>
+                      <in>startup_stm32f303xc.s</in>
+                      <in>startup_stm32f318xx.s</in>
+                      <in>startup_stm32f328xx.s</in>
+                      <in>startup_stm32f334x8.s</in>
+                      <in>startup_stm32f358xx.s</in>
+                      <in>startup_stm32f373xc.s</in>
+                      <in>startup_stm32f378xx.s</in>
+                    </df>
+                    <df name="gcc">
+                      <df name="linker">
+                      </df>
+                      <in>startup_stm32f301x8.s</in>
+                      <in>startup_stm32f302x8.s</in>
+                      <in>startup_stm32f302xc.s</in>
+                      <in>startup_stm32f303x8.s</in>
+                      <in>startup_stm32f303xc.s</in>
+                      <in>startup_stm32f318xx.s</in>
+                      <in>startup_stm32f328xx.s</in>
+                      <in>startup_stm32f334x8.s</in>
+                      <in>startup_stm32f358xx.s</in>
+                      <in>startup_stm32f373xc.s</in>
+                      <in>startup_stm32f378xx.s</in>
+                    </df>
+                    <df name="iar">
+                      <df name="linker">
+                      </df>
+                      <in>startup_stm32f301x8.s</in>
+                      <in>startup_stm32f302x8.s</in>
+                      <in>startup_stm32f302xc.s</in>
+                      <in>startup_stm32f303x8.s</in>
+                      <in>startup_stm32f303xc.s</in>
+                      <in>startup_stm32f318xx.s</in>
+                      <in>startup_stm32f328xx.s</in>
+                      <in>startup_stm32f334x8.s</in>
+                      <in>startup_stm32f358xx.s</in>
+                      <in>startup_stm32f373xc.s</in>
+                      <in>startup_stm32f378xx.s</in>
+                    </df>
+                    <in>system_stm32f3xx.c</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="Include">
+            <in>arm_common_tables.h</in>
+            <in>arm_const_structs.h</in>
+            <in>arm_math.h</in>
+            <in>core_cm0.h</in>
+            <in>core_cm0plus.h</in>
+            <in>core_cm3.h</in>
+            <in>core_cm4.h</in>
+            <in>core_cm4_simd.h</in>
+            <in>core_cmFunc.h</in>
+            <in>core_cmInstr.h</in>
+            <in>core_sc000.h</in>
+            <in>core_sc300.h</in>
+          </df>
+          <df name="RTOS">
+            <in>cmsis_os.h</in>
+          </df>
+        </df>
+        <df name="STM32_USB_Device_Library">
+          <df name="Class">
+            <df name="AUDIO">
+              <df name="Inc">
+                <in>usbd_audio.h</in>
+                <in>usbd_audio_if_template.h</in>
+              </df>
+              <df name="Src">
+                <in>usbd_audio.c</in>
+                <in>usbd_audio_if_template.c</in>
+              </df>
+            </df>
+            <df name="CDC">
+              <df name="Inc">
+                <in>usbd_cdc.h</in>
+                <in>usbd_cdc_if_template.h</in>
+              </df>
+              <df name="Src">
+                <in>usbd_cdc.c</in>
+                <in>usbd_cdc_if_template.c</in>
+              </df>
+            </df>
+            <df name="CustomHID">
+              <df name="Inc">
+                <in>usbd_customhid.h</in>
+                <in>usbd_customhid_if_template.h</in>
+              </df>
+              <df name="Src">
+                <in>usbd_customhid.c</in>
+                <in>usbd_customhid_if_template.c</in>
+              </df>
+            </df>
+            <df name="DFU">
+              <df name="Inc">
+                <in>usbd_dfu.h</in>
+                <in>usbd_dfu_media_template.h</in>
+              </df>
+              <df name="Src">
+                <in>usbd_dfu.c</in>
+                <in>usbd_dfu_media_template.c</in>
+              </df>
+            </df>
+            <df name="HID">
+              <df name="Inc">
+                <in>usbd_hid.h</in>
+              </df>
+              <df name="Src">
+                <in>usbd_hid.c</in>
+              </df>
+            </df>
+            <df name="MSC">
+              <df name="Inc">
+                <in>usbd_msc.h</in>
+                <in>usbd_msc_bot.h</in>
+                <in>usbd_msc_data.h</in>
+                <in>usbd_msc_scsi.h</in>
+                <in>usbd_msc_storage_template.h</in>
+              </df>
+              <df name="Src">
+                <in>usbd_msc.c</in>
+                <in>usbd_msc_bot.c</in>
+                <in>usbd_msc_data.c</in>
+                <in>usbd_msc_scsi.c</in>
+                <in>usbd_msc_storage_template.c</in>
+              </df>
+            </df>
+            <df name="Template">
+              <df name="Inc">
+                <in>usbd_template.h</in>
+              </df>
+              <df name="Src">
+                <in>usbd_template.c</in>
+              </df>
+            </df>
+          </df>
+          <df name="Core">
+            <df name="Inc">
+              <in>usbd_conf_template.h</in>
+              <in>usbd_core.h</in>
+              <in>usbd_ctlreq.h</in>
+              <in>usbd_def.h</in>
+              <in>usbd_ioreq.h</in>
+            </df>
+            <df name="Src">
+              <in>usbd_conf_template.c</in>
+              <in>usbd_core.c</in>
+              <in>usbd_ctlreq.c</in>
+              <in>usbd_ioreq.c</in>
+            </df>
+          </df>
+        </df>
+        <df name="STM32F3xx_HAL_Driver">
+          <df name="Inc">
+            <in>stm32f3xx_hal.h</in>
+            <in>stm32f3xx_hal_adc.h</in>
+            <in>stm32f3xx_hal_adc_ex.h</in>
+            <in>stm32f3xx_hal_can.h</in>
+            <in>stm32f3xx_hal_cec.h</in>
+            <in>stm32f3xx_hal_comp.h</in>
+            <in>stm32f3xx_hal_comp_ex.h</in>
+            <in>stm32f3xx_hal_conf_template.h</in>
+            <in>stm32f3xx_hal_cortex.h</in>
+            <in>stm32f3xx_hal_crc.h</in>
+            <in>stm32f3xx_hal_crc_ex.h</in>
+            <in>stm32f3xx_hal_dac.h</in>
+            <in>stm32f3xx_hal_dac_ex.h</in>
+            <in>stm32f3xx_hal_def.h</in>
+            <in>stm32f3xx_hal_dma.h</in>
+            <in>stm32f3xx_hal_dma_ex.h</in>
+            <in>stm32f3xx_hal_flash.h</in>
+            <in>stm32f3xx_hal_flash_ex.h</in>
+            <in>stm32f3xx_hal_gpio.h</in>
+            <in>stm32f3xx_hal_gpio_ex.h</in>
+            <in>stm32f3xx_hal_hrtim.h</in>
+            <in>stm32f3xx_hal_i2c.h</in>
+            <in>stm32f3xx_hal_i2c_ex.h</in>
+            <in>stm32f3xx_hal_i2s.h</in>
+            <in>stm32f3xx_hal_i2s_ex.h</in>
+            <in>stm32f3xx_hal_irda.h</in>
+            <in>stm32f3xx_hal_irda_ex.h</in>
+            <in>stm32f3xx_hal_iwdg.h</in>
+            <in>stm32f3xx_hal_opamp.h</in>
+            <in>stm32f3xx_hal_opamp_ex.h</in>
+            <in>stm32f3xx_hal_pcd.h</in>
+            <in>stm32f3xx_hal_pcd_ex.h</in>
+            <in>stm32f3xx_hal_pwr.h</in>
+            <in>stm32f3xx_hal_pwr_ex.h</in>
+            <in>stm32f3xx_hal_rcc.h</in>
+            <in>stm32f3xx_hal_rcc_ex.h</in>
+            <in>stm32f3xx_hal_rtc.h</in>
+            <in>stm32f3xx_hal_rtc_ex.h</in>
+            <in>stm32f3xx_hal_sdadc.h</in>
+            <in>stm32f3xx_hal_smartcard.h</in>
+            <in>stm32f3xx_hal_smartcard_ex.h</in>
+            <in>stm32f3xx_hal_smbus.h</in>
+            <in>stm32f3xx_hal_spi.h</in>
+            <in>stm32f3xx_hal_tim.h</in>
+            <in>stm32f3xx_hal_tim_ex.h</in>
+            <in>stm32f3xx_hal_tsc.h</in>
+            <in>stm32f3xx_hal_uart.h</in>
+            <in>stm32f3xx_hal_uart_ex.h</in>
+            <in>stm32f3xx_hal_usart.h</in>
+            <in>stm32f3xx_hal_usart_ex.h</in>
+            <in>stm32f3xx_hal_wwdg.h</in>
+          </df>
+          <df name="Src">
+            <in>stm32f3xx_hal.c</in>
+            <in>stm32f3xx_hal_adc.c</in>
+            <in>stm32f3xx_hal_adc_ex.c</in>
+            <in>stm32f3xx_hal_can.c</in>
+            <in>stm32f3xx_hal_cec.c</in>
+            <in>stm32f3xx_hal_comp.c</in>
+            <in>stm32f3xx_hal_cortex.c</in>
+            <in>stm32f3xx_hal_crc.c</in>
+            <in>stm32f3xx_hal_crc_ex.c</in>
+            <in>stm32f3xx_hal_dac.c</in>
+            <in>stm32f3xx_hal_dac_ex.c</in>
+            <in>stm32f3xx_hal_dma.c</in>
+            <in>stm32f3xx_hal_flash.c</in>
+            <in>stm32f3xx_hal_flash_ex.c</in>
+            <in>stm32f3xx_hal_gpio.c</in>
+            <in>stm32f3xx_hal_hrtim.c</in>
+            <in>stm32f3xx_hal_i2c.c</in>
+            <in>stm32f3xx_hal_i2c_ex.c</in>
+            <in>stm32f3xx_hal_i2s.c</in>
+            <in>stm32f3xx_hal_i2s_ex.c</in>
+            <in>stm32f3xx_hal_irda.c</in>
+            <in>stm32f3xx_hal_iwdg.c</in>
+            <in>stm32f3xx_hal_msp_template.c</in>
+            <in>stm32f3xx_hal_opamp.c</in>
+            <in>stm32f3xx_hal_opamp_ex.c</in>
+            <in>stm32f3xx_hal_pcd.c</in>
+            <in>stm32f3xx_hal_pcd_ex.c</in>
+            <in>stm32f3xx_hal_pwr.c</in>
+            <in>stm32f3xx_hal_pwr_ex.c</in>
+            <in>stm32f3xx_hal_rcc.c</in>
+            <in>stm32f3xx_hal_rcc_ex.c</in>
+            <in>stm32f3xx_hal_rtc.c</in>
+            <in>stm32f3xx_hal_rtc_ex.c</in>
+            <in>stm32f3xx_hal_sdadc.c</in>
+            <in>stm32f3xx_hal_smartcard.c</in>
+            <in>stm32f3xx_hal_smartcard_ex.c</in>
+            <in>stm32f3xx_hal_smbus.c</in>
+            <in>stm32f3xx_hal_spi.c</in>
+            <in>stm32f3xx_hal_tim.c</in>
+            <in>stm32f3xx_hal_tim_ex.c</in>
+            <in>stm32f3xx_hal_tsc.c</in>
+            <in>stm32f3xx_hal_uart.c</in>
+            <in>stm32f3xx_hal_uart_ex.c</in>
+            <in>stm32f3xx_hal_usart.c</in>
+            <in>stm32f3xx_hal_wwdg.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="gdb">
+      </df>
+      <df name="ld">
+      </df>
+      <in>common.h</in>
+      <in>compass.s</in>
+      <in>dump.c</in>
+      <in>hw_config.h</in>
+      <in>main.c</in>
+      <in>monitor.c</in>
+      <in>mycode.s</in>
+      <in>mytest.c</in>
+      <in>parser.c</in>
+      <in>stm32f30x_conf.h</in>
+      <in>stm32f3xx_hal_conf.h</in>
+      <in>syscall.c</in>
+      <in>terminal.c</in>
+      <in>usbd_cdc_interface.c</in>
+      <in>usbd_cdc_interface.h</in>
+      <in>usbd_conf.c</in>
+      <in>usbd_conf.h</in>
+      <in>usbd_desc.c</in>
+      <in>usbd_desc.h</in>
+      <in>usertypes.h</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

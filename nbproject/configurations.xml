@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="decoder">
+        <in>STM32F30x_decoder.c</in>
+        <in>decoder.c</in>
+      </df>
+      <df name="Drivers">
+        <df name="BSP">
+          <df name="Components">
+            <df name="cs42l52">
+              <in>cs42l52.c</in>
+            </df>
+            <df name="cs43l22">
+              <in>cs43l22.c</in>
+            </df>
+            <df name="hx8347d">
+              <in>hx8347d.c</in>
+            </df>
+            <df name="hx8347g">
+              <in>hx8347g.c</in>
+            </df>
+            <df name="ili9328">
+              <in>ili9328.c</in>
+            </df>
+            <df name="l3gd20">
+              <in>l3gd20.c</in>
+            </df>
+            <df name="lsm303dlhc">
+              <in>lsm303dlhc.c</in>
+            </df>
+            <df name="spfd5408">
+              <in>spfd5408.c</in>
+            </df>
+            <df name="st7735">
+              <in>st7735.c</in>
+            </df>
+            <df name="stlm75">
+              <in>stlm75.c</in>
+            </df>
+            <df name="stts751">
+              <in>stts751.c</in>
+            </df>
+          </df>
+          <df name="STM32F3-Discovery">
+            <in>stm32f3_discovery.c</in>
+            <in>stm32f3_discovery_accelerometer.c</in>
+            <in>stm32f3_discovery_gyroscope.c</in>
+          </df>
+        </df>
+        <df name="CMSIS">
+          <df name="Device">
+            <df name="ST">
+              <df name="STM32F3xx">
+                <df name="Source">
+                  <df name="Templates">
+                    <in>system_stm32f3xx.c</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="STM32_USB_Device_Library">
+          <df name="Class">
+            <df name="AUDIO">
+              <df name="Src">
+                <in>usbd_audio.c</in>
+                <in>usbd_audio_if_template.c</in>
+              </df>
+            </df>
+            <df name="CDC">
+              <df name="Src">
+                <in>usbd_cdc.c</in>
+                <in>usbd_cdc_if_template.c</in>
+              </df>
+            </df>
+            <df name="CustomHID">
+              <df name="Src">
+                <in>usbd_customhid.c</in>
+                <in>usbd_customhid_if_template.c</in>
+              </df>
+            </df>
+            <df name="DFU">
+              <df name="Src">
+                <in>usbd_dfu.c</in>
+                <in>usbd_dfu_media_template.c</in>
+              </df>
+            </df>
+            <df name="HID">
+              <df name="Src">
+                <in>usbd_hid.c</in>
+              </df>
+            </df>
+            <df name="MSC">
+              <df name="Src">
+                <in>usbd_msc.c</in>
+                <in>usbd_msc_bot.c</in>
+                <in>usbd_msc_data.c</in>
+                <in>usbd_msc_scsi.c</in>
+                <in>usbd_msc_storage_template.c</in>
+              </df>
+            </df>
+            <df name="Template">
+              <df name="Src">
+                <in>usbd_template.c</in>
+              </df>
+            </df>
+          </df>
+          <df name="Core">
+            <df name="Src">
+              <in>usbd_conf_template.c</in>
+              <in>usbd_core.c</in>
+              <in>usbd_ctlreq.c</in>
+              <in>usbd_ioreq.c</in>
+            </df>
+          </df>
+        </df>
+        <df name="STM32F3xx_HAL_Driver">
+          <df name="Src">
+            <in>stm32f3xx_hal.c</in>
+            <in>stm32f3xx_hal_adc.c</in>
+            <in>stm32f3xx_hal_adc_ex.c</in>
+            <in>stm32f3xx_hal_can.c</in>
+            <in>stm32f3xx_hal_cec.c</in>
+            <in>stm32f3xx_hal_comp.c</in>
+            <in>stm32f3xx_hal_cortex.c</in>
+            <in>stm32f3xx_hal_crc.c</in>
+            <in>stm32f3xx_hal_crc_ex.c</in>
+            <in>stm32f3xx_hal_dac.c</in>
+            <in>stm32f3xx_hal_dac_ex.c</in>
+            <in>stm32f3xx_hal_dma.c</in>
+            <in>stm32f3xx_hal_flash.c</in>
+            <in>stm32f3xx_hal_flash_ex.c</in>
+            <in>stm32f3xx_hal_gpio.c</in>
+            <in>stm32f3xx_hal_hrtim.c</in>
+            <in>stm32f3xx_hal_i2c.c</in>
+            <in>stm32f3xx_hal_i2c_ex.c</in>
+            <in>stm32f3xx_hal_i2s.c</in>
+            <in>stm32f3xx_hal_i2s_ex.c</in>
+            <in>stm32f3xx_hal_irda.c</in>
+            <in>stm32f3xx_hal_iwdg.c</in>
+            <in>stm32f3xx_hal_msp_template.c</in>
+            <in>stm32f3xx_hal_opamp.c</in>
+            <in>stm32f3xx_hal_opamp_ex.c</in>
+            <in>stm32f3xx_hal_pcd.c</in>
+            <in>stm32f3xx_hal_pcd_ex.c</in>
+            <in>stm32f3xx_hal_pwr.c</in>
+            <in>stm32f3xx_hal_pwr_ex.c</in>
+            <in>stm32f3xx_hal_rcc.c</in>
+            <in>stm32f3xx_hal_rcc_ex.c</in>
+            <in>stm32f3xx_hal_rtc.c</in>
+            <in>stm32f3xx_hal_rtc_ex.c</in>
+            <in>stm32f3xx_hal_sdadc.c</in>
+            <in>stm32f3xx_hal_smartcard.c</in>
+            <in>stm32f3xx_hal_smartcard_ex.c</in>
+            <in>stm32f3xx_hal_smbus.c</in>
+            <in>stm32f3xx_hal_spi.c</in>
+            <in>stm32f3xx_hal_tim.c</in>
+            <in>stm32f3xx_hal_tim_ex.c</in>
+            <in>stm32f3xx_hal_tsc.c</in>
+            <in>stm32f3xx_hal_uart.c</in>
+            <in>stm32f3xx_hal_uart_ex.c</in>
+            <in>stm32f3xx_hal_usart.c</in>
+            <in>stm32f3xx_hal_wwdg.c</in>
+          </df>
+        </df>
+      </df>
+      <in>dump.c</in>
+      <in>main.c</in>
+      <in>monitor.c</in>
+      <in>mytest.c</in>
+      <in>parser.c</in>
+      <in>syscall.c</in>
+      <in>terminal.c</in>
+      <in>usbd_cdc_interface.c</in>
+      <in>usbd_conf.c</in>
+      <in>usbd_desc.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-march=armv7e-m -g -Os -std=gnu99"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>make program</buildCommand>
+          <cleanCommand>make clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="Drivers/BSP/Components/cs42l52/cs42l52.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/BSP/Components/cs43l22/cs43l22.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/BSP/Components/hx8347d/hx8347d.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/BSP/Components/hx8347g/hx8347g.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/BSP/Components/ili9328/ili9328.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/BSP/Components/l3gd20/l3gd20.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/Components/spfd5408/spfd5408.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/BSP/Components/st7735/st7735.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/BSP/Components/stlm75/stlm75.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/BSP/Components/stts751/stts751.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/BSP/STM32F3-Discovery/stm32f3_discovery.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32F3-Discovery/stm32f3_discovery_accelerometer.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/BSP/Components/lsm303dlhc</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32F3-Discovery/stm32f3_discovery_gyroscope.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/BSP/Components/l3gd20</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/CMSIS/Device/ST/STM32F3xx/Source/Templates/system_stm32f3xx.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cec.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_crc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_crc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_hrtim.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2s.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2s_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_irda.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_iwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_msp_template.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_opamp.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_opamp_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rtc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rtc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_smartcard.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_smartcard_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_smbus.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tsc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_usart.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_wwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/AUDIO/Src/usbd_audio.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/AUDIO/Src/usbd_audio_if_template.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32_USB_Device_Library/Class/CDC/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Class/CDC/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+            <pElem>/usr/include/newlib</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc_if_template.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid_if_template.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu_media_template.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_storage_template.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Class/Template/Src/usbd_template.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Core/Src/usbd_conf_template.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Core/Src/usbd_core.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Src</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="decoder/STM32F30x_decoder.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>decoder</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="decoder/decoder.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>decoder</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>.</pElem>
+            <pElem>/usr/include/newlib</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dump.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <folder path="0/Drivers/BSP/Components/l3gd20">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/l3gd20</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/Components/lsm303dlhc">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/lsm303dlhc</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/STM32F3-Discovery">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/STM32F3-Discovery</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/CMSIS">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Source/Templates</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="main.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/BSP/STM32F3-Discovery</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>Drivers/BSP/Components/lsm303dlhc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="monitor.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="mytest.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="parser.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="syscall.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>/usr/lib/gcc/arm-none-eabi/5.4.1/include</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="terminal.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/lib/gcc/arm-none-eabi/5.4.1/include</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Class/CDC/Inc</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="usbd_cdc_interface.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Class/CDC/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+            <pElem>/usr/include/newlib</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="usbd_conf.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F3xx/Include</pElem>
+            <pElem>Drivers/STM32F3xx_HAL_Driver/Inc</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+            <pElem>/usr/include/newlib</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="usbd_desc.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
+            <pElem>Drivers/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+            <pElem>/usr/include/newlib</pElem>
+          </incDir>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
